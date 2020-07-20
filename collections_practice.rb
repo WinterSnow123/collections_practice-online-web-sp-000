@@ -22,3 +22,10 @@ end
 def reverse_array(array)
   array.reverse
 end 
+
+def kesha_maker(array)
+  array.collect |string|
+    strings_chars = string.chars
+    strings_chars[2] = "$"
+    strings_chars.join
+end 
