@@ -33,7 +33,7 @@ end
 
 def find_a(array)
   array.select do |string|
-    string.chars[0] == "A" || string.chars[0] == "a"
+    string.start_with?("a","A")
 end
 end
 
