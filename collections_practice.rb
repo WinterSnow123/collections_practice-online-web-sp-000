@@ -30,3 +30,9 @@ def kesha_maker(array)
     strings_chars.join
   end
 end
+
+def find_a(array)
+  array.select do |string|
+    string.initial == "A" || string.initial == "a"
+end
+end
