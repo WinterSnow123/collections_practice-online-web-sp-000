@@ -36,3 +36,7 @@ def find_a(array)
     string.chars[0] == "A" || string.chars[0] == "a"
 end
 end
+
+def sum_array(array)
+  array.inject(0){|sum,x| sum + x }
+end
